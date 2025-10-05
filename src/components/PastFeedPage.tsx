@@ -28,10 +28,10 @@ export function PastFeedPage({ selectedStore }: PastFeedPageProps) {
 
   // Camera configurations
   const cameras = [
-    { id: 'waiting-area', name: 'Waiting Area', status: 'online', location: 'Zone A', videoUrl: "/videos/vlc-record-2025-10-02-12h44m19s-D02_20250918083112.mp4" },
-    { id: 'loading-bay', name: 'Loading Bay', status: 'online', location: 'Zone B', videoUrl: "/videos/vlc-record-2025-10-02-12h45m35s-D02_20250918083112.mp4" },
-    { id: 'exit-gate', name: 'Exit Gate', status: 'online', location: 'Zone C', videoUrl: "/videos/vlc-record-2025-10-02-12h46m10s-D02_20250918083112.mp4" },
-    { id: 'entry-gate', name: 'Entry Gate', status: 'maintenance', location: 'Zone D', videoUrl: "/videos/vlc-record-2025-10-02-12h46m15s-D02_20250918083112.mp4" },
+    { id: 'waiting-area', name: 'Waiting Area', status: 'online', location: 'Zone A', videoUrl: "/videos/footage7.mp4" },
+    { id: 'loading-bay', name: 'Loading Bay', status: 'online', location: 'Zone B', videoUrl: "/videos/footage8.mp4" },
+    { id: 'exit-gate', name: 'Exit Gate', status: 'online', location: 'Zone C', videoUrl: "/videos/footage9.mp4" },
+    { id: 'entry-gate', name: 'Entry Gate', status: 'maintenance', location: 'Zone D', videoUrl: "/videos/footage10.mp4" },
   ];
 
   const timeSlots = [

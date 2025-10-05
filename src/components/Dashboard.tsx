@@ -85,12 +85,12 @@ export function Dashboard({ selectedStore }: DashboardProps) {
   ];
 
   const cameraFeeds = [
-    { id: 1, name: 'Waiting Area', status: 'online', alerts: 1, location: 'Zone A', videoUrl: "/videos/1min-footage (2).mp4" },
-    { id: 2, name: 'Loading Bay #1', status: 'online', alerts: 0, location: 'Zone B', videoUrl: "/videos/1min-footage (3).mp4" },
-    { id: 3, name: 'Loading Bay #2', status: 'offline', alerts: 1, location: 'Zone B', videoUrl: "/videos/1min-footage (4).mp4" },
-    { id: 4, name: 'Exit Gate', status: 'online', alerts: 0, location: 'Zone C', videoUrl: "/videos/1min-footage.mp4" },
-    { id: 5, name: 'Entry Gate', status: 'online', alerts: 0, location: 'Zone D', videoUrl: "/videos/30sec-footage.mp4" },
-    { id: 6, name: 'Parking Area', status: 'maintenance', alerts: 0, location: 'Zone E', videoUrl: "/videos/30sec-footage.mp4" }
+    { id: 1, name: 'Waiting Area', status: 'online', alerts: 1, location: 'Zone A', videoUrl: "/videos/footage1.mp4" },
+    { id: 2, name: 'Loading Bay #1', status: 'online', alerts: 0, location: 'Zone B', videoUrl: "/videos/footage6.mp4" },
+    { id: 3, name: 'Loading Bay #2', status: 'offline', alerts: 1, location: 'Zone B', videoUrl: "/videos/footage3.mp4" },
+    { id: 4, name: 'Exit Gate', status: 'online', alerts: 0, location: 'Zone C', videoUrl: "/videos/footage4.mp4" },
+    { id: 5, name: 'Entry Gate', status: 'online', alerts: 0, location: 'Zone D', videoUrl: "/videos/footage5.mp4" },
+    { id: 6, name: 'Parking Area', status: 'maintenance', alerts: 0, location: 'Zone E', videoUrl: "/videos/footage2.mp4" }
   ];
 
   const systemHealth = {

@@ -119,7 +119,7 @@ export function LiveFeedPage({ selectedStore }: LiveFeedPageProps) {
       background: 'bg-gradient-to-br from-orange-100 to-orange-200',
       location: 'Zone A',
       resolution: '1920x1080',
-      videoUrl: "/videos/vlc-record-2025-10-02-12h46m56s-D02_20250918083112.mp4"
+      videoUrl: "/videos/footage1.mp4"
     },
     {
       id: 'loading-bay-1',
@@ -130,7 +130,7 @@ export function LiveFeedPage({ selectedStore }: LiveFeedPageProps) {
       background: 'bg-gradient-to-br from-green-100 to-green-200',
       location: 'Zone B',
       resolution: '1920x1080',
-      videoUrl: "/videos/vlc-record-2025-10-02-11h47m49s-D02_20250918083112.mp4"
+      videoUrl: "/videos/footage3.mp4"
     },
     {
       id: 'loading-bay-2',
@@ -141,7 +141,7 @@ export function LiveFeedPage({ selectedStore }: LiveFeedPageProps) {
       background: 'bg-gradient-to-br from-blue-100 to-blue-200',
       location: 'Zone B',
       resolution: '1920x1080',
-      videoUrl: "/videos/vlc-record-2025-10-02-12h46m15s-D02_20250918083112.mp4"
+      videoUrl: "/videos/footage15.mp4"
     },
     {
       id: 'exit-gate',
@@ -152,7 +152,7 @@ export function LiveFeedPage({ selectedStore }: LiveFeedPageProps) {
       background: 'bg-gradient-to-br from-purple-100 to-purple-200',
       location: 'Zone C',
       resolution: '1920x1080',
-      videoUrl: "/videos/vlc-record-2025-10-02-12h47m00s-D02_20250918083112.mp4"
+      videoUrl: "/videos/footage12.mp4"
     },
     {
       id: 'entry-gate',
@@ -163,7 +163,7 @@ export function LiveFeedPage({ selectedStore }: LiveFeedPageProps) {
       background: 'bg-gradient-to-br from-gray-100 to-gray-200',
       location: 'Zone D',
       resolution: '1920x1080',
-      videoUrl: "/videos/vlc-record-2025-10-02-12h49m02s-D02_20250918083112.mp4"
+      videoUrl: "/videos/footage14.mp4"
     },
     {
       id: 'parking-area',
@@ -174,7 +174,7 @@ export function LiveFeedPage({ selectedStore }: LiveFeedPageProps) {
       background: 'bg-gradient-to-br from-teal-100 to-teal-200',
       location: 'Zone E',
       resolution: '1920x1080',
-      videoUrl: "/videos/vlc-record-2025-10-02-12h48m29s-D02_20250918083112.mp4"
+      videoUrl: "/videos/footage7.mp4"
     }
   ];
 
