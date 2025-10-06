@@ -1,9 +1,5 @@
 export default {
-  builds: [
-    {
-      src: "package.json",
-      use: "@vercel/static-build",
-      config: { distDir: "build" }
-    }
-  ]
+  build: {
+    outDir: 'dist'  // default value, you can skip this if unchanged
+  }
 };
